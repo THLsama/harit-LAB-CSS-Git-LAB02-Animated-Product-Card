@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap&quot");
+
+/* Universal Selector */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to top, #000000, #49d408);
+}
+
+.container {
+    position: relative;
+    max-width: 350px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    box-shadow: 0 5px 70px rgb(0, 217, 255);
+    overflow: hidden;
+    margin: 0 20px;
+    height: 100%;
+    max-height: 600px;
+    border: #000000;
+    border-block: double;
+    border-width: 6px;
+}
+
+.container .forms {
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    padding: 5%;
+    transition: height 0.2s ease;
+}
+
+.container .forms .line1 {
+    position: relative;
+    font-size: 18px;
+    font-weight: 1000;
+}
+
+.container .forms .line2 {
+    position: relative;
+    font-size: 15px;
+    font-weight: 900;
+}
+
+.container .forms .line3 {
+    position: relative;
+    font-size: 14px;
+    font-weight: 3000;
+}
+
+.forms .line {
+    float: left;
+    position: relative;
+    margin-top: 1%;
+    content: "";
+    display: table;
+    clear: both;
+    width: 100%;
+}
+
+.line input {
+    position: static;
+    height: 10%;
+    width: 50%;
+    padding: 0 5px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    border-bottom: 2px solid #b0aaaa;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.line input {
+    border-radius: 26px;
+    color: rgb(88, 83, 83);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: linear-gradient(to right, #00fff7, #36e788, #50fd00);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    float: right;
+}
+
+.column-c {
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    float: left;
+}
+
+.line .column-a img {
+    float: left;
+    width: 20%;
+}
+
+.line img {
+    float: center;
+    width: 85%;
+}
+
+.forms .column {
+    text-align: right;
+}
+
+.column-b {
+    text-align: center;
+    font-size: 28px;
+}
